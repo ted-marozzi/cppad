@@ -22,3 +22,5 @@ target_link_directories(${PROJECT_NAME} PUBLIC math)
 
 # Link the libs here
 target_link_libraries(${PROJECT_NAME} math)
+
+set(CMAKE_BUILD_TYPE Debug)
